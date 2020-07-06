@@ -8149,7 +8149,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #3e64ff; }
+  color: #3e64ff; } /* Change color for main landing page */
   a:hover, a:focus {
     text-decoration: none;
     color: #3e64ff;
@@ -8741,7 +8741,7 @@ h1, h2, h3, h4, h5,
     padding: 0 20px; }
     @media (max-width: 991.98px) {
       .ftco-partner .partner {
-        padding: 0 70px;
+        /* padding: 0 70px; */
         margin-bottom: 40px; } }
 
 .services-1 {
@@ -9672,3 +9672,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+/* Personal Additions */
+.resume-icon {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
