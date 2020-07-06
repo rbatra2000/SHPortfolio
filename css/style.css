@@ -9676,7 +9676,8 @@ textarea.form-control {
 
 /* Personal Additions */
 .resume-icon {
-  width: 60%;
+  width: 30px;
+  height: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
