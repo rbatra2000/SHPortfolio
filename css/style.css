@@ -73,7 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem; }
 
 p {
-  margin-top: 0;
   margin-bottom: 1rem; }
 
 abbr[title],
@@ -6474,7 +6473,8 @@ button.bg-dark:focus {
 
 .shadow {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; 
+height: 100%;}
 
 .shadow-lg {
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
@@ -9215,7 +9215,7 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+}
 
 .image-popup {
   cursor: -webkit-zoom-in;
@@ -9401,7 +9401,7 @@ textarea.form-control {
 
 .contact-section .img {
   width: 100%;
-  background-position: top center; }
+  background-position: center center; }
   @media (max-width: 991.98px) {
     .contact-section .img {
       height: 500px; } }
